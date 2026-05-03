@@ -12,7 +12,7 @@ At least 2mm are required to be able to take some hits
 Currently supported tubes are with 18mm and 20mm outer diameters
 
 ## 3d printed parts
-### 20mm base tube diametr
+### 20mm base tube diameter
 | Part           | Material  | Quantity  | Link   |
 |----------------|:---------:|:---------:|-------:|
 | Front end base |    PLA    |    2      |        |
@@ -20,7 +20,7 @@ Currently supported tubes are with 18mm and 20mm outer diameters
 | Front end disk |    TPU    |    2      |        |
 | Beam           |    TPU    |    6(12)  |        |
 
-### 18mm base tube diametr
+### 18mm base tube diameter
 | Part           | Material  | Quantity  | Link   |
 |----------------|:---------:|:---------:|-------:|
 | Front end base |    PLA    |    2      |        |
@@ -41,7 +41,7 @@ Currently supported tubes are with 18mm and 20mm outer diameters
 ## Step 1
 1. Put **Back end** part on tube
 1. Put **Front end disk** on tube
-NOTE! The square cuts should look **indside assembly**
+NOTE! The square cuts should be oriented **inside the assembly**
 1. Put **Front end base** on tube
 
 The end result should look like this:
