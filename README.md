@@ -6,6 +6,13 @@ The goal of this project is to allow hobbyists, like myself, to make their own g
 Equipment they can make, repair, and customize from the comfort of their own kitchens.
 Using components they can easily find locally or make themselves at home or at a makerspace.
 
+# Printing Settings
+* No supports.
+* Print as placed in STL.
+* 20% Infill, 4 perimiters, 5 top and bottom solid layers.
+* Beam and Front End Disk designed to be printed from TPU or other soft material.
+* Back End and Front End parts designed to be printed from hard materials (Tested with silk PLA).
+
 # Navigation
 
 ```
@@ -36,9 +43,10 @@ magnolia-staff/
 ```
 
 **Quick Links:**
-- 📋 **CAD Models**: Check `files/CAD/FreeCAD/` for editable designs
-- 🖨️ **3D Print Files**: Find ready-to-print models in `files/STLs/`
-- 📖 **Assembly Guide**: See `manual/manual.md` for building instructions
+- 📋 **CAD Models**: Check [files/CAD/FreeCAD/](./files/CAD/FreeCAD/) for editable designs
+- 🖨️ **3D Print Files**: Find ready-to-print models in [files/STLs](./files/STLs/)
+- 📖 **Assembly Guide**: See [manual/manual.md](./manual/manual.md) for building instructions
+- **Printables page**: [Project page](https://www.printables.com/model/1709430-magnolia-practice-flow-spinning-staff)
 
 # Ways to contribute
 Let's figure it out together if this project develops further!
