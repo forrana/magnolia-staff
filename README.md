@@ -23,14 +23,21 @@ magnolia-staff/
 ├── files/                       # All project files and assets
 │   ├── CAD/                     # CAD models and designs
 │   │   └── FreeCAD/             # FreeCAD design files (.FCStd)
-│   │       ├── beam24.FCStd     # Beam component design
-│   │       ├── front-disk.FCStd # Front disk assembly
-│   │       ├── front-end-base-18mm.FCStd    # Front end base (18mm variant)
-│   │       ├── front-end-base.FCStd         # Front end base (standard)
-│   │       ├── rear-end-18mm.FCStd          # Rear end (18mm variant)
-│   │       ├── rear-end.FCStd               # Rear end (standard)
-│   │       └── Assembly/        # Assembled designs
-│   │           └── a2plusassembly.FCStd     # Complete assembly
+│   │   |   ├── beam24.FCStd                 # Beam component design
+│   │   |   ├── front-disk.FCStd             # Front disk design
+│   │   |   ├── front-end-base-18mm.FCStd    # Front end base (18mm variant)
+│   │   |   ├── front-end-base.FCStd         # Front end base (standard)
+│   │   |   ├── rear-end-18mm.FCStd          # Rear end (18mm variant)
+│   │   |   ├── rear-end.FCStd               # Rear end (standard)
+│   │   |   └── Assembly/        # Assembled designs
+│   │   |       └── a2plusassembly.FCStd     # Complete assembly
+│   │   └── STEP/                # STEP files (.step)
+│   │       ├── beam24.step                  # Beam component design
+│   │       ├── front-disk.step              # Front disk design
+│   │       ├── front-end-base-18mm.step     # Front end base (18mm variant)
+│   │       ├── front-end-base.step          # Front end base (standard)
+│   │       ├── rear-end-18mm.step           # Rear end (18mm variant)
+│   │       └── rear-end.step                # Rear end (standard)
 │   │
 │   └── STLs/                    # 3D printable models (STL format)
 │       ├── 18mm/                # 18mm staff diameter components
@@ -43,7 +50,8 @@ magnolia-staff/
 ```
 
 **Quick Links:**
-- 📋 **CAD Models**: Check [files/CAD/FreeCAD/](./files/CAD/FreeCAD/) for editable designs
+- 📋 **FreeCAD Models**: Check [files/CAD/FreeCAD/](./files/CAD/FreeCAD/) for freecad designs
+- 📋 **CAD STEP Models**: Check [files/CAD/STEP/](./files/CAD/STEP/) for universal STEP designs
 - 🖨️ **3D Print Files**: Find ready-to-print models in [files/STLs](./files/STLs/)
 - 📖 **Assembly Guide**: See [manual/manual.md](./manual/manual.md) for building instructions
 - **Printables page**: [Project page](https://www.printables.com/model/1709430-magnolia-practice-flow-spinning-staff)
