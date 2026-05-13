@@ -10,7 +10,7 @@ Using components they can easily find locally or make themselves at home or at a
 * No supports.
 * Print as placed in STL.
 * 20% Infill, 4 perimiters, 5 top and bottom solid layers.
-* Beam and Front End Disk designed to be printed from TPU or other soft material.
+* Beam, Front End Disk and Riser Ring parts designed to be printed from TPU or other soft material.
 * Back End and Front End parts designed to be printed from hard materials (Tested with silk PLA).
 
 # Navigation
@@ -29,6 +29,8 @@ magnolia-staff/
 │   │   |   ├── front-end-base.FCStd         # Front end base (standard)
 │   │   |   ├── rear-end-18mm.FCStd          # Rear end (18mm variant)
 │   │   |   ├── rear-end.FCStd               # Rear end (standard)
+|   |   |   ├── riser-ring.FCStd             # Optional. Rise beams and changes shape of heads.
+|   |   |   ├── riser-ring-18mm.FCStd        # Optional. Rise beams and changes shape of heads. (18mm variant)
 │   │   |   └── Assembly/        # Assembled designs
 │   │   |       └── a2plusassembly.FCStd     # Complete assembly
 │   │   └── STEP/                # STEP files (.step)
@@ -37,7 +39,9 @@ magnolia-staff/
 │   │       ├── front-end-base-18mm.step     # Front end base (18mm variant)
 │   │       ├── front-end-base.step          # Front end base (standard)
 │   │       ├── rear-end-18mm.step           # Rear end (18mm variant)
-│   │       └── rear-end.step                # Rear end (standard)
+│   │       ├── rear-end.step                # Rear end (standard)
+|   |       ├── riser-ring.step              # Optional. Rise beams and changes shape of heads.
+|   |       └── riser-ring-18mm.step         # Optional. Rise beams and changes shape of heads. (18mm variant)
 │   │
 │   └── STLs/                    # 3D printable models (STL format)
 │       ├── 18mm/                # 18mm staff diameter components
