@@ -21,18 +21,29 @@ magnolia-staff/
 ├── LICENSE.md                   # License information
 │
 ├── files/                       # All project files and assets
+│   ├── Blender/                 # Blender 3D model files
+│   │   ├── CompleteAssembly.blend        # Full staff assembly
+│   │   ├── InnerAssembly.blend           # Inner assembly
+│   │   └── OuterEndAssembly.blend        # OuterEndAssembly assembly
+│   │
 │   ├── CAD/                     # CAD models and designs
-│   │   └── FreeCAD/             # FreeCAD design files (.FCStd)
-│   │   |   ├── beam24.FCStd                 # Beam component design
-│   │   |   ├── front-disk.FCStd             # Front disk design
-│   │   |   ├── front-end-base-18mm.FCStd    # Front end base (18mm variant)
-│   │   |   ├── front-end-base.FCStd         # Front end base (standard)
-│   │   |   ├── rear-end-18mm.FCStd          # Rear end (18mm variant)
-│   │   |   ├── rear-end.FCStd               # Rear end (standard)
-|   |   |   ├── riser-ring.FCStd             # Optional. Rise beams and changes shape of heads.
-|   |   |   ├── riser-ring-18mm.FCStd        # Optional. Rise beams and changes shape of heads. (18mm variant)
-│   │   |   └── Assembly/        # Assembled designs
-│   │   |       └── a2plusassembly.FCStd     # Complete assembly
+│   │   ├── FreeCAD/             # FreeCAD design files (.FCStd)
+│   │   │   ├── Assembly/                # Assembled designs
+│   │   │   │   └── a2plusassembly.FCStd   # Complete assembly
+│   │   │   ├── beam24.FCStd                 # Beam component design
+│   │   │   ├── front-disk.FCStd             # Front disk design
+│   │   │   ├── front-disk-L.FCStd           # Front disk (Large variant)
+│   │   │   ├── front-disk-M.FCStd           # Front disk (Medium variant)
+│   │   │   ├── front-end-base-18mm.FCStd    # Front end base (18mm variant)
+│   │   │   ├── front-end-base-balance.FCStd # Front end base (balanced variant)
+│   │   │   ├── front-end-base-mounting-ring.FCStd
+│   │   │   ├── front-end-base.FCStd         # Front end base (standard)
+│   │   │   ├── rear-end-18mm.FCStd          # Rear end (18mm variant)
+│   │   │   ├── rear-end.FCStd               # Rear end (standard)
+│   │   │   ├── riser-ring-18mm.FCStd        # Optional. Rise beams and changes shape of heads (18mm)
+│   │   │   ├── riser-ring.FCStd             # Optional. Rise beams and changes shape of heads
+│   │   │   └── Tube.FCStd                   # Tube component
+│   │   │
 │   │   └── STEP/                # STEP files (.step)
 │   │       ├── beam24.step                  # Beam component design
 │   │       ├── front-disk.step              # Front disk design
@@ -40,23 +51,42 @@ magnolia-staff/
 │   │       ├── front-end-base.step          # Front end base (standard)
 │   │       ├── rear-end-18mm.step           # Rear end (18mm variant)
 │   │       ├── rear-end.step                # Rear end (standard)
-|   |       ├── riser-ring.step              # Optional. Rise beams and changes shape of heads.
-|   |       └── riser-ring-18mm.step         # Optional. Rise beams and changes shape of heads. (18mm variant)
+│   │       ├── riser-ring-18mm.step         # Optional. Rise beams and changes shape of heads (18mm)
+│   │       └── riser-ring.step              # Optional. Rise beams and changes shape of heads
 │   │
 │   └── STLs/                    # 3D printable models (STL format)
-│       ├── 18mm/                # 18mm staff diameter components
-│       ├── 20mm/                # 20mm staff diameter components
-│       └── common/              # Common/shared components
+│       ├── Beams/                # Beam component STL files
+│       │   ├── beam24-Beam_Crystal_amp0p50.stl
+│       │   └── beam24-Beam.stl
+│       │
+│       ├── FrontEnd/              # Front end component STL files
+│       │   ├── front-disk.stl
+│       │   ├── front-end-base-mounting-ring.stl
+│       │   └── front-end-base.stl
+│       │
+│       ├── RearEnd/               # Rear end component STL files
+│       │   └── rear-end.stl
+│       │
+│       └── Optional/              # Optional component STL files
+│           ├── front-disk-L.stl
+│           ├── front-disk-M.stl
+│           ├── front-end-base-balance.stl
+│           └── riser-ring.stl
 │
 └── manual/                      # User documentation
+    ├── animations/               # Assembly animation files
+    │   ├── part1/                # Part 1 animations
+    │   ├── part2/                # Part 2 animations
+    │   └── part3/                # Part 3 animations
     ├── manual.md                # Detailed assembly and usage guide
     └── images/                  # Screenshots and reference images
 ```
 
 **Quick Links:**
-- 📋 **FreeCAD Models**: Check [files/CAD/FreeCAD/](./files/CAD/FreeCAD/) for freecad designs
+- 🎨 **Blender Models**: Check [files/Blender/](./files/Blender/) for Blender assembly files
+- 📋 **FreeCAD Models**: Check [files/CAD/FreeCAD/](./files/CAD/FreeCAD/) for FreeCAD designs
 - 📋 **CAD STEP Models**: Check [files/CAD/STEP/](./files/CAD/STEP/) for universal STEP designs
-- 🖨️ **3D Print Files**: Find ready-to-print models in [files/STLs](./files/STLs/)
+- 🖨️ **3D Print Files**: Find ready-to-print models in [files/STLs/](./files/STLs/)
 - 📖 **Assembly Guide**: See [manual/manual.md](./manual/manual.md) for building instructions
 - **Printables page**: [Project page](https://www.printables.com/model/1709430-magnolia-practice-flow-spinning-staff)
 
